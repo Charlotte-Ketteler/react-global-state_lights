@@ -12,10 +12,15 @@ const StyledLights = styled.ul`
 `;
 
 export default function Lights() {
+
+
   return (
     <StyledLights>
+
+      
+      
       <li>
-        <Light name="Living Room" />
+        <Light name="Living Room"  />
       </li>
       <li>
         <Light name="Kitchen" />
@@ -41,3 +46,4 @@ export default function Lights() {
     </StyledLights>
   );
 }
+
